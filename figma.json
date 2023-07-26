@@ -1,12 +1,40 @@
 {
   "global": {
-    "Pur[l": {
+    "small": {
+      "value": "5* {base}",
+      "type": "spacing"
+    },
+    "base": {
+      "value": "8",
+      "type": "sizing"
+    },
+    "smalll": {
+      "value": "3* {base}",
+      "type": "sizing"
+    },
+    "logo": {
+      "value": "https://s3-alpha-sig.figma.com/img/2954/3ae7/8150c1ab41c9a0403f68509f69f9b839?Expires=1691366400&Signature=kPWlJQOcPJ6-xBsNMT1vfHkEdk2BeU1Qg9jsvEA8V19yT8JZ6Z7JZUfKz4m98HN3GWDG-nB5uCYwBGM8JVISXghN-TfhAG0XiP2VJnW9kyv6SHjl4qwVmhJryOE5ahPw~hoWDNokRM7dqJhIGviyxGPcRlWy~WnqYEK7TTKmn23dCp3Nefs-PHJTUGRBXLEdMl8PJT2C4vc5toUu-CjQ8sqSs5fuiTo5FwVy8Q4ygngKNJsLMuKXfNJhgjk8HJKsANnWIdjC4I8cgdXdNftIifZyogR96h9ikr24tzLrAIrfVSSQiC2mAK3fJ5iyICinFSjWSYr1m7wP5oAqVycAdQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+      "type": "asset"
+    },
+    "ff": {
+      "value": "https://s3-alpha-sig.figma.com/img/6086/9cab/8fcbf1e45ab697d30f96cabf75d47d57?Expires=1691366400&Signature=ndwPXPaBm6IEtj3NJSbzA3yhzj1tYMuZwg84i5BZ9bjTG~DEzGMXLsS1Lvn5mDVUMo1saGkeYavvfdEzec1fd15LDZBBbCcwGBYE7yIEq0wySJTSwg4gXsleMYdpRfpgeoS8RkanmkQYmU6V7xgozHQwtVMeZLWDHlx0QEjGBy5oChKNNQh8DhQNuNJrKnpvtDHXkWObPj25Hp~mNTy6zqXdZ32Pjo5udz5s70j1Mk4ZEUq3NWE8lNJE8Bf7BO54sdzMT0wdGr0u-NMci3uUAkMwvUpxe0ELDPI4343-SsMl4u1FTaMpsoTPtNyiK-jfmiHmpmYe6Yr1IusT7wtIYA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+      "type": "asset"
+    },
+    "pink": {
+      "value": "#bf1b86",
+      "type": "color"
+    },
+    "pink60": {
+      "value": "rbga($pink,0.7)",
+      "type": "color"
+    },
+    "Pomary": {
       "purple-50": {
-        "value": "#ffffff",
+        "value": "#efe6fd",
         "type": "color"
       },
       "purple-100": {
-        "value": "#ceb0fa",
+        "value": "#5eebb0",
         "type": "color"
       },
       "purple-200": {
@@ -41,12 +69,22 @@
         "value": "#290064",
         "type": "color"
       }
+    },
+    "photo": {
+      "value": "https://images.unsplash.com/photo-1689916146802-5229e0bdf951?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      "type": "asset"
+    },
+    "icon": {
+      "value": "file:///C:/Users/Rawan%20Adel/Desktop/Frame.svg",
+      "type": "asset"
     }
   },
+  "light": {},
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
-      "global"
+      "global",
+      "light"
     ]
   }
 }
